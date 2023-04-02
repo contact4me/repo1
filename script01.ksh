@@ -13,3 +13,10 @@ echo "$var"
 echo "Current date and time : $now"
 echo "Computer name : $computer_name"
 echo ""
+echo " file system"
+echo "============="
+df -h
+date
+
+cat /etc/passwd|awk -F: '{print $2}'
+ls -ltr
