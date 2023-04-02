@@ -18,3 +18,5 @@ echo "============="
 df -h
 date
 
+cat /etc/passwd|awk -F: '{print $2}'
+ll
