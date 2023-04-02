@@ -13,3 +13,8 @@ echo "$var"
 echo "Current date and time : $now"
 echo "Computer name : $computer_name"
 echo ""
+echo " file system"
+echo "============="
+df -h
+date
+
